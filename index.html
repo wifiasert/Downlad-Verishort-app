@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1d3a" />
+    <title>Download VeriShort</title>
+    <style>
+      :root {
+        --bg: #050b16;
+        --panel: rgba(10, 24, 60, 0.85);
+        --panel-border: rgba(90, 170, 255, 0.35);
+        --accent: #1f7bff;
+        --accent-dark: #0b4dd9;
+        --text: #f5f9ff;
+        --muted: rgba(245, 249, 255, 0.7);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: radial-gradient(circle at top, #0a2250 0%, var(--bg) 60%);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+      }
+
+      .card {
+        width: min(420px, 100%);
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 24px;
+        padding: 28px 22px 30px;
+        text-align: center;
+        box-shadow: 0 24px 50px rgba(2, 8, 30, 0.45);
+        backdrop-filter: blur(10px);
+      }
+
+      .logo {
+        width: 72px;
+        height: 72px;
+        border-radius: 18px;
+        background: rgba(31, 123, 255, 0.15);
+        border: 1px solid rgba(90, 170, 255, 0.4);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+      }
+
+      .logo img {
+        width: 52px;
+        height: 52px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 0 0 10px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+      }
+
+      p {
+        margin: 0 0 20px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .download-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        padding: 14px 18px;
+        border-radius: 18px;
+        background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 12px 28px rgba(31, 123, 255, 0.35);
+      }
+
+      .download-btn svg {
+        width: 18px;
+        height: 18px;
+        fill: #fff;
+      }
+
+      .safe-text {
+        margin-top: 12px;
+        font-size: 12px;
+        color: rgba(180, 210, 255, 0.9);
+      }
+
+      .contact {
+        margin-top: 26px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        padding-top: 16px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .contact a {
+        color: #9fd1ff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="logo">
+        <img src="logo.png" alt="VeriShort logo" />
+      </div>
+      <h1>Download VeriShort</h1>
+      <p>Get the Android APK and start learning in seconds.</p>
+      <a class="download-btn" href="veriShort.apk" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4.01 4a1 1 0 0 1-1.38 0l-4.01-4a1 1 0 0 1 1.4-1.42L11 12.59V4a1 1 0 0 1 1-1z"/>
+          <path d="M5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1z"/>
+        </svg>
+        Download APK
+      </a>
+      <div class="safe-text">Safe &amp; Secure Download</div>
+      <div class="contact">
+        Need help? Message me<br />
+        <a href="mailto:petersgodspower4@gmail.com">petersgodspower4@gmail.com</a>
+      </div>
+    </main>
+  </body>
+</html>
